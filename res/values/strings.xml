@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndLocker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+ <string-array name="Visibility">
+ <item>Default Lockscreen</item>
+ <item>Pin or Password Lockscreen</item>
+ </string-array>   
+   <string-array name="Visibility1">
+<item>Default Lockscreen</item>
+ <item>Pin or Password Lockscreen</item>
+ </string-array>   
+</resources>

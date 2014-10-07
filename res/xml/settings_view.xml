@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Settings" >
+        
+    </PreferenceCategory>
+    <CheckBoxPreference android:title="AndLocker" android:key="and_toggle" android:summaryOff="Disable" android:summaryOn="Enable"/>
+        <ListPreference android:entryValues="@array/Visibility1"  android:title="Set Lockscreen Style"  android:entries="@array/Visibility" android:key="style"/>
+    <PreferenceScreen android:title="Set Password for Lockscreen" android:key="pin"></PreferenceScreen>
+ <PreferenceScreen android:title="Set Owner Text" android:key="owner"></PreferenceScreen>
+        <PreferenceCategory android:title="About" > 
+    </PreferenceCategory>
+     <PreferenceScreen android:title="Make by" android:key="author"></PreferenceScreen>
+      <PreferenceScreen android:title="Version" android:key="ver"></PreferenceScreen>
+</PreferenceScreen>
